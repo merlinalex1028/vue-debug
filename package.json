@@ -1,0 +1,27 @@
+{
+  "name": "vue-debug",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.6.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "vue": "^3.4.31"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.24.1",
+    "@unocss/eslint-plugin": "^0.61.9",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "^9.8.0",
+    "pnpm": "^9.6.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vue-tsc": "^2.0.24"
+  }
+}
